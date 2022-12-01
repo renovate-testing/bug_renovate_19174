@@ -1,10 +1,10 @@
 lazy val root = (project in file("."))
 
-val slf4jVersion = "2.0.4"
-
 libraryDependencies ++= Seq(
     "dev.zio" %% "zio" % "2.0.4"
 )
+
+val slf4jVersion = "2.0.4"
 
 dependencyOverrides ++= Seq(
   // Enforce SLF4J consistency
