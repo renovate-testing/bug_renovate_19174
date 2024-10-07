@@ -4,7 +4,7 @@ libraryDependencies ++= Seq(
     "dev.zio" %% "zio" % "2.0.4"
 )
 
-val slf4jVersion = "2.0.4"
+val slf4jVersion = "2.0.16"
 
 dependencyOverrides ++= Seq(
   // Enforce SLF4J consistency
